@@ -1,0 +1,8 @@
+网卡聚合:
+
+1、HP
+ 2003和2008：需HP Network Configuration Utility（NCU)
+2、IBM
+ 2003和2008：要对Broadcom网卡进行Teaming必选装一个叫做BASP的工具，而装这个工具包之前必须安装微软的.net Framework 2.0以上。在Broadcom网站的下载，或者在IBM服务器随机带的网卡驱动光盘内可以找到。
+3、DELL
+ 2003和2008：要在Broadcom网卡上启用网卡组，需要安装Broadcom网卡管理软件BACS（Broadcom Advanced Control Suite），可以从Broadcom网站下载该软件
