@@ -1,0 +1,9 @@
+#! /bin/bash
+function shift1()
+{
+	while [ $# > 0 ]
+	do
+		echo "$1"
+		shift
+	done
+}
